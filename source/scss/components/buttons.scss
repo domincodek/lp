@@ -1,0 +1,15 @@
+button {
+	font-family: 'Montserrat', sans-serif;
+	border-radius: $border-radius;
+	padding: calc(#{$padding}*0.75) calc(#{$padding}*1.25);
+	background-color: $color-blue;
+	transition: background-color ease-out 0.1s;
+	color: $color-white;
+	font-weight: 700;
+	font-size: 0.9375rem;
+	border: none;
+	cursor: pointer;
+	&:hover {
+		background-color: scale-color($color-blue, $lightness: +15%);
+	}
+}
